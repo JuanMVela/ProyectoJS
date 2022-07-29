@@ -1,0 +1,119 @@
+body{
+    background-color: rgba(34, 34, 34, 0.856);
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: black;
+
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    padding: 20px;
+    background-color:gray
+}
+
+#saludo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 18px;   
+}
+
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.fase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid black;
+    width: 300px;
+    height: 450px;
+    background-color: rgba(17, 63, 148, 0.712);
+    padding: 40px;
+}
+
+.img_game{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 4px solid white;
+    /* border-radius: 20px; */
+}
+
+.imagen{
+    width: 300px;
+    height:300px;
+    border-radius: 10px;
+}
+
+.okPalabra{
+    font-size: 30px;
+    font-weight: bolder;
+    align-items: center;
+    color: white;
+}
+
+#respuesta{ 
+    display: flex;    
+    flex-direction: column;   
+}
+
+#ingresoPalabra{     
+    align-items: center;
+    justify-items: center;    
+}
+
+.contenedorBoxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.boxes{
+    width: 35px;
+    height: 35px;
+    border: 1px solid #7777;
+    background: #ffff;
+    margin: 3px;
+}
+
+.letras{
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.letras button{
+    width: 30px;
+    margin: 3px;
+}
+
+.contKey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+
+
+
+
+
